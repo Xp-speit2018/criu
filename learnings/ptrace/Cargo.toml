@@ -1,0 +1,10 @@
+[package]
+name = "ptrace"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nix = "0.26.2"
+owo-colors = "3.5.0"
+procfs = "0.17.0"
+serde_json = "1.0.94"

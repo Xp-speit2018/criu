@@ -1,0 +1,21 @@
+# template for cargo
+
+# =========
+# Build Artifacts & Cargo Related
+# =========
+# Ignore Cargo build directory in any sub-crate folder.
+**/target/
+
+# Optionally ignore Cargo.lock if you’re building libraries:
+# (For binary projects, you might want to keep Cargo.lock under version control.)
+# **/Cargo.lock
+
+# =========
+# Rust Backup Files (if any)
+# =========
+**/*.rs.bk
+
+# =========
+# Miscellaneous
+# =========
+*.log
